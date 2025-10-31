@@ -11,11 +11,16 @@ La fonction doit retourner un objet contenant ces trois propriétés :
     - age (number)
     - estConnecte (boolean)
 */
-
-function createUser() {
-    
+// creation de la fonction createUser
+function createUser(nom, age, estConnecté) {
+    return { nom : nom, 
+             age : age, 
+             estConnecté : estConnecté
+            }
 }
-
+// appelle de la fonction et on affiche le resultat dans la console
+    console.log(createUser("tracy",20,true));
+    
 module.exports = {
     createUser,
 };
