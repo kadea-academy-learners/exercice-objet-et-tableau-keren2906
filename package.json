@@ -6,7 +6,6 @@
   "author": "Kadea Academy",
   "license": "MIT",
   "type": "commonjs",
-
   "scripts": {
     "test": "jest"
   },
